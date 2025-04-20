@@ -143,7 +143,6 @@ git remote -v
 # Set or update origin
 git remote set-url origin https://github.com/minhaaj-t/Listing-App.git
 ```
-
 ---
 
 ## 📄 License
@@ -172,4 +171,3 @@ Contributions, issues and feature requests are welcome!
 
 ---
 
-Let me know if you'd like to generate a badge section, add contributors, or configure CI/CD or deployment for platforms like **Vercel**, **Netlify**, or **GitHub Pages**!
