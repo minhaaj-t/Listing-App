@@ -13,15 +13,16 @@
             <li>
                 <NuxtLink to="/blog/Contact">Contact</NuxtLink>
             </li>
+            <li>
+                <NuxtLink to="/auth/register">Register</NuxtLink>
+            </li>
         </ul>
         </div>
 
         <!-- Second Div -->
 
         <div>
-            <slot>
-
-            </slot>
+            <NuxtPage></NuxtPage>
         </div>
 
         <!-- Third Div -->

@@ -1,3 +1,8 @@
+<script setup>
+ definePageMeta({
+    layout: 'auth',
+ })
+</script>
 <template>
     <div>
         <h1>Register Page</h1>
