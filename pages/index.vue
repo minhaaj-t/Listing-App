@@ -3,13 +3,11 @@
     layout: 'default',
  })
 
- const articles=ref([1,2,3,4,5])
+const articles=ref([1,2,3,4,5])
 const config = useRuntimeConfig()
 // console.log('config :', config.API_URL)
-
-
  const { data } = await useFetch(config.public.API_URL+'/posts')
- console.log('config :', config)
+ console.log('config :', config.privateKey)
 </script>
 <template>
     <div>
@@ -17,10 +15,11 @@ const config = useRuntimeConfig()
             <h1>LIST OF ARTICLES</h1>
         </div>
         <br>
-        <div v-for="(index,article) in data" :key="index">
-            <h3>Article - {{ article?.title }}</h3>
-            <p>{{ article?.post_content }}</p>
-            <NuxtLink to="/about">Learn more about us</NuxtLink>
+        <div v-for="article in data?.data" :key="article.id">
+            <h3>Article - <a href="">{{ article?.title }}</a></h3>
+            <div v-html="article?.post_content"></div>
+            <!-- <p>{{  }}</p> -->
+            <NuxtLink to="/about">Learn more</NuxtLink>
         </div>
         <br>
     </div>
