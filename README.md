@@ -5,7 +5,7 @@
 A simple and elegant listing application built with **Nuxt 3**. This app serves as a modern front-end platform to display and manage dynamic content such as products, articles, services, or any other item-based list with future scalability in mind.
 
 ---
-
+ 
 ## 📸 Preview
 
 ![Listing App Screenshot](https://miro.medium.com/v2/resize:fit:1122/1*xQ1_IUiS-gAj5JirO9u_5A.png) <!-- Replace with actual screenshot path or URL -->
